@@ -6,7 +6,7 @@ tg交流群：https://t.me/sngxpro
 QX:
 [rewrite_local]
 #啪哩啪哩解锁vip+下载次数+无限观影+清晰度权限
-^https:\/\/api\.(.+)\.*\/(v1\/user\/info|v1\/user\/promote\/info) url script-response-body https://raw.githubusercontent.com/tl566/YI-SHI-XIAO/edit/main/100000/js/palipali.js
+^https:\/\/api\.(.+)\.*\/(v1\/user\/info|v1\/user\/promote\/info) url script-response-body https://raw.githubusercontent.com/tl566/YI-SHI-XIAO/main/100000/js/palipali.js
 
 [mitm]
 hostname = api.*.com,api.*.cn
